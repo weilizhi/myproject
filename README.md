@@ -26,4 +26,7 @@
         static : 静态资源
     9. 建仓库
          初始化git忽略文件 .gitignore
-         
+      
+      
+       
+      
