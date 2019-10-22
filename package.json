@@ -11,7 +11,7 @@
     "dobabel": "babel ./dist/js/index.js -o ./dist/js/index.min.js",
     "docopy": "node ./util/copy.js",
     "dosassDev": "sass --watch ./src/css/index.scss ./src/css/index.min.css",
-    "dowebpackDev":  "webpack --watch ./src/js/index.js ./src/js/index.min.js"
+    "dowebpackDev": "webpack --watch ./src/js/index.js ./src/js/index.min.js"
   },
   "keywords": [],
   "author": "",

@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-  <link rel="stylesheet" href="./dist/css/index.min.css">
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./src/css/index.min.css">
 </head>
 <body>
-<script src="./dist/js/index.min.js"></script>
-<div id="wrap">
-  <header id="header">
-    <div class="headerMain">
-      <h1 class="log">
-        <a href="javascript:;">
-          <img src="/img/logo.png" alt="logo">
+<div id="app">
+  <div class="head">
+    <div class="headMain">
+      <h1 class="logo">
+        <a href="http://www.atguigu.com">
+          <img src="./static/img/logo.png">
         </a>
       </h1>
-      <nav class="nav">
-        <ul class="list clearfix">
-          <li>
-            <a href="javascript:;">
-              <span class="up"><img src="img/home_gruen.png"></span>
-              <span class="down"><img src="img/home.png"></span>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:;">
-              <span class="up">Works</span>
-              <span class="down">Works</span>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:;">
-              <span class="up">About</span>
-              <span class="down">About</span>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:;">
-              <span class="up">Team</span>
-              <span class="down">Team</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="arrow"></div>
+      <ul class="nav">
+        <li class="item active">
+          <a href="javascript:;">
+                <span>
+                  <img src="./static/img/home.png" >
+                </span>
+            <span>
+                  <img src="./static/img/home_gruen.png" >
+                </span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="javascript:;">
+            <span>Course</span>
+            <span>Course</span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="javascript:;">
+            <span>Works</span>
+            <span>Works</span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="javascript:;">
+            <span>About</span>
+            <span>About</span>
+          </a>
+        </li>
+        <li class="item">
+          <a href="javascript:;">
+            <span>Team</span>
+            <span>Team</span>
+          </a>
+        </li>
+      </ul>
+      <i class="arrow"></i>
     </div>
-  </header>
+  </div>
+  <div class="content">
+    <ul class="list">
+      <li class="home">
+        <div>home</div>
+      </li>
+      <li class="course">
+        <div>course</div>
+      </li>
+      <li class="works">
+        <div>works</div>
+      </li>
+      <li class="about">
+        <div>about</div>
+      </li>
+      <li class="team">
+        <div>team</div>
+      </li>
+    </ul>
+    <ul class="points">
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
 </div>
 </body>
 </html>
