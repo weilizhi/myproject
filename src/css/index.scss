@@ -6,7 +6,6 @@
 @import "./business/works";
 @import "./business/about";
 @import "./business/team";
-
 html{
   width: 100%;
   height: 100%;
@@ -40,7 +39,7 @@ html{
               margin-left: 40px;
               & > a{
                 position: relative;
-                & > span{
+                & > div{
                   color: #009EE0;
                   transition: width .5s;
                   display: block;
@@ -56,7 +55,7 @@ html{
               }
               &:hover{
                 & > a{
-                  & > span{
+                  & > div{
                     &:nth-child(2){
                       width: 100%;
                     }
@@ -68,7 +67,7 @@ html{
               }
               &.active{
                 & > a{
-                  & > span{
+                  & > div{
                     &:nth-child(2){
                       width: 100%;
                     }
@@ -95,7 +94,7 @@ html{
         right: 0;
         top: 80px;
         bottom: 0;
-        background: gray;
+        background: springgreen;
         overflow: hidden;
         .list{
           position: absolute;
