@@ -94,7 +94,6 @@ html{
         right: 0;
         top: 80px;
         bottom: 0;
-        background: springgreen;
         overflow: hidden;
         .list{
           position: absolute;
@@ -111,27 +110,27 @@ html{
             }
             &.home{
               div{
-                background: pink;
+                background: orange;
               }
             }
             &.course{
               div{
-                background: deeppink;
+                background: springgreen;
               }
             }
             &.works{
               div{
-                background: hotpink;
+                background: crimson;
               }
             }
             &.about{
               div{
-                background: yellow;
+                background: blue;
               }
             }
             &.team{
               div{
-                background: greenyellow;
+                background: plum;
               }
             }
           }
