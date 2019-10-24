@@ -81,6 +81,7 @@ a {
   vertical-align: baseline;
   background: transparent;
   text-decoration: none;
+  display: block;
 }
 
 del {
@@ -231,6 +232,164 @@ img {
   display: block;
   content: "";
   clear: both;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html body #app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html body #app .head {
+  position: relative;
+  width: 100%;
+  background: white !important;
+}
+html body #app .head .headMain {
+  width: 1100px;
+  height: 80px;
+  margin: 0 auto;
+}
+html body #app .head .headMain .logo {
+  margin-top: 30px;
+  float: left;
+}
+html body #app .head .headMain .nav {
+  margin-top: 50px;
+  float: right;
+}
+html body #app .head .headMain .nav .item {
+  float: left;
+  margin-left: 40px;
+}
+html body #app .head .headMain .nav .item > a {
+  position: relative;
+}
+html body #app .head .headMain .nav .item > a > span {
+  color: #009EE0;
+  transition: width 0.5s;
+  display: block;
+}
+html body #app .head .headMain .nav .item > a > span:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: black;
+  width: 0px;
+  overflow: hidden;
+}
+html body #app .head .headMain .nav .item:hover > a > span:nth-child(2) {
+  width: 100%;
+}
+html body #app .head .headMain .nav .item:nth-child(1) {
+  margin-top: 2px;
+}
+html body #app .head .headMain .nav .item.active > a > span:nth-child(2) {
+  width: 100%;
+}
+html body #app .head .headMain .arrow {
+  transition: left 0.5s;
+  z-index: 9;
+  position: absolute;
+  bottom: -11px;
+  left: 50%;
+  width: 21px;
+  height: 11px;
+  background: url("../../static/img/menuIndicator.png") no-repeat;
+}
+html body #app .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  bottom: 0;
+  overflow: hidden;
+}
+html body #app .content .list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s linear;
+}
+html body #app .content .list li {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: center;
+  line-height: 520px;
+}
+html body #app .content .list li div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1100px;
+  height: 520px;
+}
+html body #app .content .list li.home {
+  background: url("../../static/img/bg1.jpg");
+}
+html body #app .content .list li.home div {
+  background: red;
+}
+html body #app .content .list li.course {
+  background: url("../../static/img/bg2.jpg");
+}
+html body #app .content .list li.course div {
+  background: red;
+}
+html body #app .content .list li.works {
+  background: url("../../static/img/bg3.jpg");
+}
+html body #app .content .list li.works div {
+  background: red;
+}
+html body #app .content .list li.about {
+  background: url("../../static/img/bg4.jpg");
+}
+html body #app .content .list li.about div {
+  background: red;
+}
+html body #app .content .list li.team {
+  background: url("../../static/img/bg5.jpg");
+}
+html body #app .content .list li.team div {
+  background: red;
+}
+html body #app .content .points {
+  position: fixed;
+  right: 15px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 25px;
+  height: 150px;
+}
+html body #app .content .points li {
+  width: 25px;
+  height: 25px;
+  border: 5px solid cornflowerblue;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+html body #app .content .points li.active {
+  background: gold;
+}
+html body #app .content .points li:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.min.css.map */
