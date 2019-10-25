@@ -234,6 +234,20 @@ img {
   clear: both;
 }
 
+.commonTitle {
+  color: #009ee0;
+  font-size: 80px;
+  line-height: 0.8;
+  font-weight: bold;
+  letter-spacing: -5px;
+}
+
+.commonText {
+  color: white;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -285,7 +299,7 @@ html body #app .head .headMain .nav .item > a > span:nth-child(2) {
   left: 0;
   top: 0;
   color: black;
-  width: 0px;
+  width: 0;
   overflow: hidden;
 }
 html body #app .head .headMain .nav .item:hover > a > span:nth-child(2) {
