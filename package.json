@@ -30,7 +30,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "fs-extra": "^8.1.0",
     "sass": "^1.23.0",
-    "webpack": "^3.10.0"
+    "webpack": "^5.75.0"
   },
   "dependencies": {
     "postcss-cli": "^6.1.3"
